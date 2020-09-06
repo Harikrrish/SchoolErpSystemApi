@@ -4,7 +4,8 @@
   "description": "This is an api project for School ERP System.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Hariharan M",
   "license": "ISC",
