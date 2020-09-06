@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const routes = require("./app/routes/route");
 const cors = require('cors');
 
+
 mongoose.Promise = global.Promise;
 
 // Connecting to the database
@@ -35,6 +36,7 @@ app.use('/', routes);
 // ]);
 
 
-app.listen(5000, () => {
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
     console.log("Server is listening on port 5000");
 });
